@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
-
+//testando
 int par(int n)
 {   
 	if(n % 2==0)
