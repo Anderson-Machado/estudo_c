@@ -13,6 +13,7 @@ int par(int n)
 	}
 		
 }
+// aqui começa o if
 
 main()
 {
@@ -29,4 +30,4 @@ main()
 	  }
 	  
 	system("pause");
-}
+}//fm do programa
