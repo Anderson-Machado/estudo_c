@@ -10,6 +10,11 @@ int soma(in a, int,b)
 return a+b;
 }
 
+int sub(ina a, int b)
+{
+return a-b;
+}
+
 main()
 {
 	int a,b, result;
