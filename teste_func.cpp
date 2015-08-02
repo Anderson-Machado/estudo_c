@@ -4,7 +4,10 @@ int multiplicar(int n,y)
 {   
   return n*y;	
 }
-
+int div(int a, int b)
+{
+return a/b;
+}
 int soma(in a, int,b)
 {
 return a+b;
