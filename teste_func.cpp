@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
-
+//caraca mané
 int par(int n)
 {   
 	if(n % 2==0)
