@@ -17,7 +17,7 @@ int par(int n)
 main()
 {
 	int i;
-	printf("informe um numero");
+	printf("informe uma letra");
 	 scanf("%d",&i);
 	  if(par(i)==1)
 	  {
