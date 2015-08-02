@@ -2,7 +2,7 @@
 #include<stdio.h>
 //caraca mané
 int par(int n)
-{   
+{   //caraca mane que que e isso
 	if(n % 2==0)
 	{
 	return 1; 	
