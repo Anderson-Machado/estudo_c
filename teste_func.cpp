@@ -13,6 +13,7 @@ int par(int n)
 	}
 		
 }
+// aqui começa o if
 
 main()
 {
