@@ -30,4 +30,4 @@ main()
 	  }
 	  
 	system("pause");
-}
+}//fm do programa
