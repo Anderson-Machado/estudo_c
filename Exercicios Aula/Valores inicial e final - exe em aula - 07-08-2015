@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	int vi,vf,par,impar,div;
+	
+	
+
+	
+
+	printf("Digite valor inicial: ");
+	scanf("%d",&vi);
+	printf("Digite valor final: ");
+	scanf("%d",&vf);
+		int i ;
+		for(i=0;vi<vf;i++)
+		{
+			if(vi % 2 = 0 ) && (vf % 2 = 0)
+			
+			par=vi+vf
+			
+;			cont++;
+			
+		}
+		else
+		{
+			impar = vi+vf;
+			cont++;
+		}
+		
+		if(vi % 3 = 0 ) && (vf % 4 = 0)
+		{
+			div = vi+vf;
+			cont++;
+		}
+		
+		
+	
+	
+	
+	
+	
+	
+
+	return 0;
+}
