@@ -20,7 +20,7 @@ main()
         
         for(ini; ini<fim;ini++)
         {   
-            if(ini<=0)//verificando a quantidade de numeros positivos
+            if(ini>=0)//verificando a quantidade de numeros positivos
             {
         	pos++;
         	sp+=ini;
@@ -45,20 +45,22 @@ main()
         	}
         	
 		}
-        float mp = sp/pos;
+        /*float mp = sp/pos;
         float mpar= spar/par;
         float mimpar = simpar/impar;
         float mdiv = sdiv/div;
-        //falta colocar as médias
-        printf("numeros positivos encontrados:%d",pos);
+        */
+		//falta colocar as médias
+        printf("numeros positivos encontrados:%d\n",pos);
 		printf("Numeros pares:%d\n",par);
         printf("Numeros impares:%d\n",impar);
         printf("Numeros divisiveis por 3 e 4 ao mesmo tempo:%d\n",impar);
-        printf("media maior positivo\n:%f",mp);
+        /*
+		printf("media maior positivo\n:%f",mp);
         printf("media numeros pares:%f\n",mpar);
         printf("media numeros impares:%f\n",mimpar);
         printf("media multiploes de 3 e 4 :%f\n",mdiv);
-    
+    */
     
     system("pause");
 }
