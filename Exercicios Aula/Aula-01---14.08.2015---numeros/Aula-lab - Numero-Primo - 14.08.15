@@ -1,0 +1,39 @@
+// Exe01 - 14.08.2015.cpp : Define o ponto de entrada para a aplicação de console.
+//
+
+#include "stdafx.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+
+	int num = 0,cont = 0 ;
+
+	printf("Informe numero: ");
+	scanf("%d",&num);
+	int i = 0; 
+
+	for( i=1 ; i <= num ; i++)
+	{
+		if(num % i == 0)
+		{
+			cont++;		
+		}
+	}
+	if(cont == 2)
+	{
+		printf("Primo! \n ");
+	}
+	else
+	{
+		printf("Nao primo! \n  ");
+	}
+
+
+	system("pause");
+
+	return 0;
+}
+
